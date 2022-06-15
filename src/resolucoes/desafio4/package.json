@@ -1,0 +1,17 @@
+{
+  "name": "resolucoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafio3.js",
+  "scripts": {
+    "dev": "lite-server desafio4.html"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^4.7.3"
+  }
+}

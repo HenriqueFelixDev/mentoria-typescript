@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 4</title>
+    <script type="module" src="./viewmodels/loginViewModel.js" defer></script>
+    <script type="module" src="./viewmodels/filmesViewModel.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+<body>
+    <div class="main-container">
+      <div class="login-container">
+          <div class="login-container__content">
+            <h2>Login</h2>
+            <input id="login" class="form-control" placeholder="Login">
+            <input id="senha" class="form-control" placeholder="Senha" type="password">
+            <input id="api-key" class="form-control" placeholder="Api Key">
+            <button id="login-button" class="btn btn-primary" disabled>Login</button>
+          </div>
+      </div>
+      <div class="search-container">
+          <div class="search-container__form">
+            <input id="search" class="form-control" placeholder="Escreva...">
+            <button id="search-button" class="btn btn-primary">Pesquisar Filme</button>
+          </div>
+          <div id="search-container-result" class="search-container__result">
+          </div>
+      </div>
+    </div>
+</body>
+</html>
